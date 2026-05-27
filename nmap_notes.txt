@@ -1,0 +1,10 @@
+
+Nmap command:
+nmap bankofamerica.com
+
+Purpose:
+Scans target host for open ports and services.
+
+Result:
+80/tcp open http
+443/tcp open https
