@@ -1,0 +1,13 @@
+step 5
+| Directive     | Meaning                       |
+| ------------- | ----------------------------- |
+| `User-agent:` | Which crawler rule applies to |
+| `Disallow:`   | Paths crawler should avoid    |
+| `Allow:`      | Paths crawler may access      |
+| `Sitemap:`    | XML sitemap location          |
+| Tab      | What to Look For          | Answer / Finding                                                                                                            |
+| -------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Elements | Hidden HTML comments      | Found comment: `Copyright (c) 2014-2026 Bjoern Kimminich & the OWASP Juice Shop contributors. SPDX-License-Identifier: MIT` |
+| Sources  | Main JavaScript file      | Angular/JavaScript bundle files likely used; exact main JS filename not yet opened                                          |
+| Network  | Loaded technologies/files | `.js`, `.css`, `.png`, `.woff/.woff2`, Angular assets, API/XHR requests                                                     |
+| Console  | Errors/warnings/messages  | No major visible console errors shown in screenshots                                                                        |

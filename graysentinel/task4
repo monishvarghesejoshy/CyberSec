@@ -1,0 +1,10 @@
+| # | Question                                       | Answer                                                                                                      |
+| - | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| 1 | What is the name of the company/website?       | OWASP Juice Shop                                                                                            |
+| 2 | What products do they sell?                    | Juice drinks, smoothies, fruit beverages, apple products, berry drinks, basil smoothies, banana juice, etc. |
+| 3 | Is there a login page?                         | Yes — accessible through the `Account` button at the top-right                                              |
+| 4 | Is there a search bar?                         | Yes — search icon visible at the top-right                                                                  |
+| 5 | What is the copyright year in the footer?      | 2014–2026                                                                                                   |
+| 6 | Can you find an email address or contact info? | Contact section/link present, but no email visible in screenshots                                           |
+| 7 | What social media links are visible?           | GitHub link visible                                                                                         |
+| 8 | What does the “About Us” page say?             | About Us section exists but contents not opened/read yet                                                    |
