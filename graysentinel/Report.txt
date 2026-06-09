@@ -1,0 +1,57 @@
+Baseline System Report
+Environment Overview
+
+This lab environment consists of two virtual machines running in Oracle VirtualBox:
+
+Windows 7 Virtual Machine
+Kali Linux 2025.1c Virtual Machine
+Windows 7 VM
+Operating System
+OS Name: Microsoft Windows 7
+Version: (Run systeminfo and record the version)
+Architecture: 64-bit
+Network Configuration
+IP Address: 192.168.56.xxx
+Network Type: Host-Only Adapter
+Installed Software
+Oracle VirtualBox Guest Additions
+Internet Explorer
+Command Prompt
+Windows Firewall
+Windows Defender (if installed)
+Kali Linux VM
+Operating System
+OS Name: Kali Linux
+Version: Kali Linux 2025.1c
+Architecture: 64-bit
+Network Configuration
+IP Address: 192.168.56.101
+Network Type: Host-Only Adapter
+Installed Software
+Nmap
+Wireshark
+Metasploit Framework
+Burp Suite
+Firefox ESR
+OpenSSH Client
+Netcat
+Hydra
+Aircrack-ng
+Connectivity Test
+
+A connectivity test was performed using the Windows 7 VM:
+
+ping 192.168.56.101
+
+Results:
+
+Packets Sent: 4
+Packets Received: 4
+Packet Loss: 0%
+
+This confirms successful network communication between the Windows 7 VM and the Kali Linux VM.
+
+Conclusion
+
+Both virtual machines were successfully configured and connected through the VirtualBox host-only network. Baseline information including operating system versions, IP addresses, and installed software was documented for future security testing and lab activities.
+
